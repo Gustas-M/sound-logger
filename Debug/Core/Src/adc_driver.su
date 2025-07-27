@@ -1,0 +1,12 @@
+../Drivers/CMSIS/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	16	static,ignoring_inline_asm
+../Drivers/CMSIS/Include/core_cm4.h:1814:22:__NVIC_SetPriority	16	static
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h:1880:26:LL_ADC_DMA_GetRegAddr	16	static
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h:1910:22:LL_ADC_SetCommonClock	16	static
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h:2493:22:LL_ADC_REG_SetSequencerRanks	40	static,ignoring_inline_asm
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h:3279:22:LL_ADC_SetChannelSamplingTime	64	static,ignoring_inline_asm
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h:3870:22:LL_ADC_Enable	16	static
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h:3921:22:LL_ADC_REG_StartConversionSWStart	16	static
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h:1704:22:LL_APB2_GRP1_EnableClock	24	static
+../Core/Src/adc_driver.c:77:6:ADC_Driver_Init	72	static
+../Core/Src/adc_driver.c:128:6:ADC_Driver_ReadChannels	16	static
+../Core/Src/adc_driver.c:138:6:ADC_Driver_GetChannelValue	16	static

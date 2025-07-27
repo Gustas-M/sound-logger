@@ -1,6 +1,7 @@
 /**********************************************************************************************************************
  * Includes
  *********************************************************************************************************************/
+#include <stddef.h>
 #include "stm32f4xx_ll_gpio.h"
 #include "stm32f4xx_ll_bus.h"
 #include "gpio_driver.h"
@@ -45,7 +46,7 @@
         .alternate = LL_GPIO_AF_7
     },
 	[eGpioPin_ADC1_CH0] = {
-		.port GPIOA,
+		.port = GPIOA,
 		.pin = LL_GPIO_PIN_0,
 		.mode = LL_GPIO_MODE_ANALOG,
 		.speed = LL_GPIO_SPEED_FREQ_LOW,

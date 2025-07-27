@@ -9,8 +9,14 @@
  * Exported definitions and macros
  *********************************************************************************************************************/
 typedef enum {
+	eAdc_First = 0,
+	eAdc_1 = eAdc_First,
+	eAdc_Last
+} eAdc_t;
+
+typedef enum {
 	eAdcChannel_First = 0,
-    eAdcChannel_0 = eAdcChannel_First,
+	eAdcChannel_1 = eAdcChannel_First,
 	eAdcChannel_Last
 } eAdcChannel_t;
 /**********************************************************************************************************************
@@ -24,6 +30,8 @@ typedef enum {
 /**********************************************************************************************************************
  * Prototypes of exported functions
  *********************************************************************************************************************/
-bool GPIO_Driver_Init (void);
+bool ADC_Driver_Init (eAdc_t adc);
+bool ADC_Driver_ReadChannels (eAdc_t adc);
+bool ADC_Driver_GetChannelValue (eAdcChannel_t channel, uint16_t *value);
 
 #endif /* INC_ADC_DRIVER_H_ */
