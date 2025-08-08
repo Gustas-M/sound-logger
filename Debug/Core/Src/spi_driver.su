@@ -1,0 +1,14 @@
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_spi.h:378:22:LL_SPI_SetStandard	16	static
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_spi.h:581:26:LL_SPI_GetDataWidth	16	static
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_spi.h:744:26:LL_SPI_IsActiveFlag_RXNE	16	static
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_spi.h:755:26:LL_SPI_IsActiveFlag_TXE	16	static
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_spi.h:1090:25:LL_SPI_ReceiveData8	16	static
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_spi.h:1101:26:LL_SPI_ReceiveData16	16	static
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_spi.h:1113:22:LL_SPI_TransmitData8	24	static
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_spi.h:1130:22:LL_SPI_TransmitData16	24	static
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h:1185:22:LL_APB1_GRP1_EnableClock	24	static
+../Core/Src/spi_driver.c:46:6:SPI_Driver_Init	56	static
+../Core/Src/spi_driver.c:75:6:SPI_Driver_Select	16	static
+../Core/Src/spi_driver.c:84:6:SPI_Driver_Deselect	16	static
+../Core/Src/spi_driver.c:93:6:SPI_Driver_Write	32	static
+../Core/Src/spi_driver.c:120:6:SPI_Driver_Read	40	static

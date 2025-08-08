@@ -8,5 +8,5 @@
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h:3921:22:LL_ADC_REG_StartConversionSWStart	16	static
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h:1704:22:LL_APB2_GRP1_EnableClock	24	static
 ../Core/Src/adc_driver.c:77:6:ADC_Driver_Init	72	static
-../Core/Src/adc_driver.c:128:6:ADC_Driver_ReadChannels	16	static
-../Core/Src/adc_driver.c:138:6:ADC_Driver_GetChannelValue	16	static
+../Core/Src/adc_driver.c:132:6:ADC_Driver_ReadChannels	16	static
+../Core/Src/adc_driver.c:142:6:ADC_Driver_GetChannelValue	16	static

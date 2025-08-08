@@ -75,6 +75,10 @@ static sAdcDesc_t static_adc_lut[eAdc_Last] = {
 };
 
 bool ADC_Driver_Init (eAdc_t adc) {
+	if ((eAdc_Last <= adc) || (eAdc_First > adc)) {
+		return false;
+	}
+
 	LL_ADC_InitTypeDef ADC_InitStruct = {0};
 	LL_ADC_REG_InitTypeDef ADC_REG_InitStruct = {0};
 
@@ -126,9 +130,9 @@ bool ADC_Driver_Init (eAdc_t adc) {
 }
 
 bool ADC_Driver_ReadChannels (eAdc_t adc) {
-    if (adc >= eAdc_Last) {
-        return false;
-    }
+	if ((eAdc_Last <= adc) || (eAdc_First > adc)) {
+		return false;
+	}
 
     LL_ADC_REG_StartConversionSWStart(static_adc_lut[adc].adc);
 
@@ -139,6 +143,7 @@ bool ADC_Driver_GetChannelValue (eAdcChannel_t channel, uint16_t *value) {
     if (channel >= eAdcChannel_Last) {
         return false;
     }
+
     if (value == NULL) {
         return false;
     }

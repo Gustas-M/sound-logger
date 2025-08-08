@@ -7,6 +7,6 @@
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h:3870:22:LL_ADC_Enable	1
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h:3921:22:LL_ADC_REG_StartConversionSWStart	1
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h:1704:22:LL_APB2_GRP1_EnableClock	1
-../Core/Src/adc_driver.c:77:6:ADC_Driver_Init	6
-../Core/Src/adc_driver.c:128:6:ADC_Driver_ReadChannels	2
-../Core/Src/adc_driver.c:138:6:ADC_Driver_GetChannelValue	3
+../Core/Src/adc_driver.c:77:6:ADC_Driver_Init	7
+../Core/Src/adc_driver.c:132:6:ADC_Driver_ReadChannels	2
+../Core/Src/adc_driver.c:142:6:ADC_Driver_GetChannelValue	3

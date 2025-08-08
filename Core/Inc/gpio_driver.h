@@ -16,6 +16,11 @@ typedef enum {
     eGpioPin_DebugTx = eGpioPin_First,
     eGpioPin_DebugRx,
 	eGpioPin_ADC1_CH0,
+	eGpioPin_SdCardSpiMiso,
+	eGpioPin_SdCardSpiMosi,
+	eGpioPin_SdCardSpiSck,
+	eGpioPin_SdCardSpiCs,
+	eGpioPin_SoundSensorDigital,
     eGpioPin_Last
 } eGpioPin_t;
 /**********************************************************************************************************************

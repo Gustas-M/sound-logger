@@ -1,5 +1,5 @@
-Core/Src/gpio_driver.o: ../Core/Src/gpio_driver.c \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h \
+Core/Src/spi_driver.o: ../Core/Src/spi_driver.c \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_spi.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h \
  ../Drivers/CMSIS/Include/core_cm4.h \
@@ -25,11 +25,9 @@ Core/Src/gpio_driver.o: ../Core/Src/gpio_driver.c \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h \
- ../Core/Inc/adc_driver.h ../Core/Inc/gpio_driver.h
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h:
+ ../Core/Inc/spi_driver.h ../Core/Inc/gpio_driver.h
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_spi.h:
 ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:
 ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h:
 ../Drivers/CMSIS/Include/core_cm4.h:
@@ -55,8 +53,6 @@ Core/Src/gpio_driver.o: ../Core/Src/gpio_driver.c \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h:
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h:
-../Core/Inc/adc_driver.h:
+../Core/Inc/spi_driver.h:
 ../Core/Inc/gpio_driver.h:
